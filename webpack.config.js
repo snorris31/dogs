@@ -21,6 +21,8 @@ module.exports = {
       test: /\.tsx?$/,
       loader: "awesome-typescript-loader",
       include: path.join(__dirname, 'src')
-    }]
-  }
+    },
+    { test: /\.css$/, 
+      loader: "style-loader!css-loader"},
+  ]}
 };

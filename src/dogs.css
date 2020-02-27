@@ -1,0 +1,10 @@
+.dog_box {
+    width: 400px;
+    height: 400px;
+    padding-bottom: 10px;
+}
+
+.dog1 {
+    float: left;
+    padding: 30px;
+}
